@@ -136,7 +136,7 @@ public class ResourceCentre {
 		System.out.println(header);
 		Helper.line(80, "-");
 	}
-	//Comment
+
 	public static String showAvailability(boolean isAvailable) {
 		String avail;
 
@@ -253,7 +253,7 @@ public class ResourceCentre {
 	
 
 	public static boolean doLoanChromebook(ArrayList<Chromebook> chromebookList, String tag, String dueDate) {
-		// comments: write your code here
+		//write your code here
 		boolean isLoaned = false;
 
 		for (int i = 0; i < chromebookList.size(); i++) {
